@@ -1,0 +1,35 @@
+{
+  "name": "my-cli",
+  "version": "1.0.0",
+  "description": "create app template",
+  "main": "./bin/index.js",
+  "scripts": {
+    "my-cli": "./bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DZ-study/my-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "frontend"
+  ],
+  "author": "janicedong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DZ-study/my-cli/issues"
+  },
+  "homepage": "https://github.com/DZ-study/my-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.1",
+    "import-from": "^3.0.0",
+    "inquirer": "^7.3.3",
+    "minimist": "^1.2.5",
+    "mkdirp": "^1.0.4",
+    "osenv": "^0.1.5",
+    "resolve-from": "^5.0.0",
+    "yeoman-environment": "^2.10.3"
+  }
+}
